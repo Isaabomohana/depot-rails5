@@ -13,50 +13,62 @@
  *= require_tree .
  *= require_self
  */
-.products {
-   table {
-     border-collapse: collapse;
-   }
+#banner {
+ background: #9c9;
+ padding: 10px;
+ border-bottom: 2px solid;
+ font: small-caps 40px/40px "Times New Roman", serif;
+ color: #282;
+ text-align: center;
 
-  table tr td {
-    padding: 5px;
-    vertical-align: top;
+ img {
+   float: left;
   }
+ }
 
-  .list_image {
-    width: 60px;
-    height: 70px;
+ #notice {
+   color: #000 important;
+   border: 2px solid red;
+   padding: 1em;
+   margin-bottom: 2em;
+   background-color: #f0f0f0;
+   font-weight: bold;
+   font-family: sans-serif;
+}
+
+#columns {
+  background: #141;
+
+  #main {
+    margin-left: 17em;
+    padding: 1em;
+    background: white;
   }
+}
+  #side {
+    float: left;
+    padding: 1em 2em;
+    width: 13em;
+    background: #141;
 
-  .list_description {
-    width: 60%;
-  }
-
-  dl {
-    margin: 0;
-  }
-
-  dt {
-    color: #244;
-    font-weight: bold;
-    font-size: 1.2rem;
-  }
-
-  dd {
-    margin: 0;
-  }
-
-    .list_actions {
-      font-size: 1rem;
-      text-align: right;
-      padding-left: 1em;
+    ul {
+      padding: 0;
+      li {
+        list-style: none;
+        a {
+          color: #bfb;
+        }
+      }
     }
-
-    .list_line-even {
-      background: #e0f8f8;
-    }
-
-    .list_line_odd {
-      background: #e0f8f8;
-    }
   }
+
+ #side {
+ float: left;
+  float: left;
+  color: #000 !important;
+  border: 2px solid red;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: #f0f0f0;
+  font: bold smaller sans-serif
+ }
